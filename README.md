@@ -16,7 +16,7 @@ In order to test all the great features of Carbon Black Container, you need to p
 
 If you are a Docker absolute beginner, I recommend to watch a video about Docker, for example, this [video](https://www.youtube.com/watch?v=pg19Z8LL06w) that I have found very helpful.
 
-And if you want this malicious devil image it's already available on [DockerHub](https://hub.docker.com/repository/docker/stephanelist/devil)
+And if you want this malicious devil image it's already available on [DockerHub](https://hub.docker.com/r/stephanelist/devil)
 
 ### Install Docker
 
