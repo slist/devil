@@ -36,6 +36,11 @@ COPY id_ed25519 /root/.ssh/id_ed25519
 COPY config ~/.aws/config
 COPY credentials ~/.aws/credentials
 
+# AWS keys in Environment variables
+ENV AWS_ACCESS_KEY_ID=AKIAIOSFODNN7EXAMPLE
+ENV AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+ENV AWS_DEFAULT_REGION=us-west-2
+
 # devils.sh is the script that will run all malicious activities at runtime
 COPY devil.sh /app/
 RUN chmod +x /app/devil.sh
