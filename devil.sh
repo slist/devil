@@ -18,6 +18,7 @@ timeout 60s nmap -sT -T5 -n -p80,443 `ip a sh | grep inet | grep -v 127 | cut -d
 # Connect to malicious destination
 curl http://112.17.28.39
 
+echo "Sleep!"
 # Sleep 10 years
 /bin/sleep 3650d
 
