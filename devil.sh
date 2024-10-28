@@ -4,7 +4,7 @@
 /app/cctest
 
 # Run a cryptominer during 20s. It should be blocked if you have "Endpoint Standard" feature
-timeout 20s /app/xmrig-6.18.0/xmrig
+timeout 20s /app/xmrig-6.22.1/xmrig
 
 # Run abnormal connection (not seen during Carbon Black training period)
 curl google.com -c 5
