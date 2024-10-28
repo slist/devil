@@ -1,8 +1,8 @@
-# Carbon Black Container devil image
+# Container devil image
 
 ## Introduction
 
-In order to test all the great features of Carbon Black Container, you need to put on the hat of a bad and malicious developer for a few minutes. With this little piece of code, you will create a malicious container image that is *not* dangerous, but will perform some malicious actions:
+In order to test all the great features of Container scanners, you need to put on the hat of a bad and malicious developer for a few minutes. With this little piece of code, you will create a malicious container image that is *not* dangerous, but will perform some malicious actions:
 
 * run a fake Linux malware: cctest.
 
