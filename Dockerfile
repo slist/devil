@@ -24,8 +24,10 @@ RUN wget --no-check-certificate https://github.com/slist/LinuxMalware/raw/main/c
 RUN chmod +x cctest
 
 # Download and extract xmrig : a very popular cryptominer (Ubuntu Focal is Ubuntu 20.04)
-RUN wget https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-focal-x64.tar.gz
-RUN tar xzvf xmrig-6.18.0-focal-x64.tar.gz
+#RUN wget https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-focal-x64.tar.gz
+RUN wget https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.22.1-focal-x64.tar.gz
+#RUN tar xzvf xmrig-6.18.0-focal-x64.tar.gz
+RUN tar xzvf xmrig-6.22.1-focal-x64.tar.gz
 
 # Copy a fake SSH private key in container image
 # You can create your own key using: ssh-keygen -t ed25519 -C "example@example.com"
